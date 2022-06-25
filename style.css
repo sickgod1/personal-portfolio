@@ -1,0 +1,185 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.menu ul li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 35px;
+    transition: all .5s ease;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+.menu li{
+    font-size: 100px;
+}
+span{
+    color: red;
+}
+p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+h6{
+    color: gray;
+}
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+
+
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    
+
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img/Tkyo.jpg') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .6;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px
+}s
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    border-radius: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+/* About Section */
+#about{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-bottom: 0px;
+    background-color: black
+    
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    border-radius: 130px;
+    width: 250px;
+    height: 250px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+}
+#intro h2{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+/* Portofolio Section */
+#portofolio{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 50px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+}
+.gallery img{
+    width: 460px;
+    height: 250px;
+    margin: 55px;
+}
