@@ -1,7 +1,7 @@
-# Landing page
+# Personal Portfolio
 
 Personal Portfolio written in HTML 5 & CSS.
 
 
-https://i.postimg.cc/C1nTsYfS/231111.png
+<img src="https://i.postimg.cc/C1nTsYfS/231111.png" alt="Photo" width="32" align="center"> 
 
